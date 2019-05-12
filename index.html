@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Filipichev +38 068 354 60 90</title>
+  <meta name="viewport" content="width=device-width,
+ initial-scale=1.0">    
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js"></script>
+
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body >
+
+<!--     <div class="game__title">
+    <p>Health: <span id="game__health">0</span></p>
+  </div>
+  <div class="game__title">
+    <canvas id="game__background" width="500" height="500"></canvas>
+    <canvas id="game__foreground" width="500" height="500"></canvas>
+  </div>
+
+  <div style="display: none;">
+    <img id="game__hero" src="img/hero.png">
+    <img id="game__snake" src="img/snake.png">
+    <img id="game__soldier" src="img/soldier.png">
+  </div> -->
+
+
+
+<div class="form__main">
+	<h2 class="form__header">
+		Project Manager
+	</h2>
+  
+  <form action="get" class="form__main--container">
+  <fieldset>
+
+		<div class="form__field--name">
+			<label for="name" class="form__label--name">Task Name</label>
+      <input id="name" name="name" type="text" placeholder="Name of project" required/>
+    </div>
+    
+    <div class="form__field--date">
+    	<label for="name" class="form__label--date">Date</label>
+      <input id="date" name="date" type="date" />
+    </div>
+
+    <div class="form__field--desc">
+    	<h4 class="form__label--desc">Task Description</h4>
+    	<textarea id="story" name="story"
+          rows="5" placeholder="It was a dark and stormy night..."></textarea>
+    </div>
+
+    <div class="form__action">
+    	<a href="#" class="form__button form__button--green">Add to the list</a>
+    </div>
+
+  </fieldset>
+  </form>
+
+</div>
+
+
+
+
+<div class="table__container--main" id="table__main">
+	<div class="table__header--main">
+		<h2>All tasks</h2>
+	</div>
+
+	<div class="table__content--main">
+   <div class="table__column--name-h u-center">Task Name</div>
+   <div class="table__column--date-h u-center">Starting Date</div>
+   <div class="table__column--desc-h u-center">Task Description</div>
+   <div class="table__column--edited-h u-center">Was Edited</div>
+   <div class="table__column--status-h u-center">Status</div>
+	</div>
+
+	<div class="table__content--main" id="table__rows--container">
+		<div class="table__column--name-c u-center">Drawing</div>
+		<div class="table__column--date-c u-center">15.02.2005</div>
+		<div class="table__column--desc-c u-center">We are going to mix some colors.</div>
+		<div class="table__column--edited-c u-center">Yes</div>
+		<div class="table__column--status-c">
+			<div class="status__choose--container">Pending  ▼</div>
+<!-- 			<ul class="list__task--dropdown closed">
+       <li class="status__pending"><a href="#1" class="table__status--button">Pending<span class="triangle">▼</span></a></li>
+       <li class="status__ongoing">Ongoing</li>
+       <li class="status__complete">Complete</li>
+       </ul> -->
+		</div>
+	</div>
+
+  <div id="slider" class="slider">
+    <div class="thumb"></div>
+  </div>
+
+</div>
+
+  <div id="container">
+    <div id="block__green"></div>
+    <div id="block__yellow"></div>
+    <div id="block__red"></div>
+    <div id="block__blue"></div>
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="list__container">
+  <h2 class="list__header--main">All Tasks</h2>
+  
+  <div class="list__headers">
+    <div class="list__header--name">Task Name</div>
+    <div class="list__task-names">Deving</div>
+    
+    <div class="list__header--date">Starting Date</div>
+    <div class="list__task-dates">26.05.1999</div>
+    
+    <div class="list__header--desc">Task Description</div>
+    <div class="list__task-content">Begin our very interesting journey.</div>
+    
+    <div  class="list__header--wasedited">Was edited</div>
+    <div class="list__task-wasedited">Yes</div>
+    
+    <div class="list__header--status">Status</div>
+    <div class="list__task-status">
+    	<ul class="list__task--dropdown closed">
+       <li class="status__pending"><a href="#" class="table__dropdown--button" id="list__status--button">Pending</a></li>
+       <li class="status__ongoing">Ongoing</li>
+       <li class="status__complete">Complete</li>
+       </ul>
+    </div>
+    
+  </div>
+  
+ <div class="list__task-container">
+ </div>
+  
+</div> 
+	
+	<div class="table__content--main">
+	<div class="table__column--name u-center">
+		<div class="table__column--name-h u-center">Task Name</div>
+	</div>
+
+	<div class="table__column--date u-center">
+		<div class="table__column--date-h u-center">Starting Date</div>	
+	</div>
+
+  <div class="table__column--desc u-center">
+		<div class="table__column--desc-h u-center">Task Description</div>	
+	</div>
+
+	<div class="table__column--edited u-center">
+		<div class="table__column--edited-h u-center">Was Edited</div>
+	</div>
+
+	<div class="table__column--status u-center">
+		<div class="table__column--status-h u-center">Status</div>
+	</div>	
+
+	</div> 
+
+	<form action="get" class="form__main">
+  <fieldset>
+    <legend>Your skillset</legend>
+    
+     <div>
+      <input id="name" name="name" type="text" />
+      <label for="name">Name</label>
+    </div>
+    
+    <div>
+      <input id="date" name="date" type="date" />
+      <label for="name">Date</label>
+    </div>
+    
+    <div>
+      <input id="name" name="name" type="text" />
+      <label for="name">Task</label>
+    </div> 
+    
+    <div>
+      <select id="experience" name="experience">
+        <option value="1">1 year or less</option>
+        <option value="2">2 years</option>
+        <option value="3">3 - 4 years</option>
+        <option value="5">5 years or more</option>
+      </select>
+      <label for="experience">experience</label>
+    </div>
+    
+    <div>
+      <input id="html" name="html" type="checkbox" />
+      <label for="html">HTML</label>
+    </div>
+    
+    <div>
+      <input id="css" name="css" type="checkbox" />
+      <label for="css">CSS</label>
+    </div>
+    
+    <div>
+      <input id="javascript" name="javascript" type="checkbox" />
+      <label for="javascript">JavaScript</label>
+    </div>
+    
+  </fieldset>
+  
+  <a href="#" class="form__button form__button--green">Add to the list</a>
+</form>
+
+
+-->
