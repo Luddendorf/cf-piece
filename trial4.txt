@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 sdsdfsdfjasdlk;
 sfslak;fjas;l
 sfslafjs
+=======
+sdfasdfs
+>>>>>>> line-c
