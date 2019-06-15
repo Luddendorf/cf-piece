@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //    triangle.textContent = "▼";
   //   }
   // Changes from second branch
-
+  // Changes from second branch 2
   // }, false);
   // })();
   (function() {
