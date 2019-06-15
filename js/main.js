@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //   } else {
   //    triangle.textContent = "▼";
   //   }
-
+  // Changes from second branch
 
   // }, false);
   // })();
