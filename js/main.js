@@ -33,8 +33,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //   } else {
   //    triangle.textContent = "▼";
   //   }
+  // Changes from second branch
+  // Changes from second branch 2
 
-
+  // Changes made for remote third
   // }, false);
   // })();
   (function() {
