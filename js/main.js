@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       wasEdited: false,
       status: "pending"
       };
-
   //   (function() {
   // document.querySelector('#list__status--button').addEventListener('click', function() {
   //   this.parentNode.parentNode.classList.toggle('closed')
